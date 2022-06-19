@@ -1,7 +1,9 @@
 package main.classes.enumClasses;
 
-public enum Animals {
+public enum AnimalType {
     CAT,
     DOG,
     DUCK
+
+
 }
