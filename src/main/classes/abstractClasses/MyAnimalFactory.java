@@ -1,4 +1,4 @@
-package main.classes;
+package main.classes.abstractClasses;
 
 import main.classes.abstractClasses.Animal;
 import main.classes.enumClasses.AnimalType;

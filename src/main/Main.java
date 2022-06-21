@@ -1,6 +1,6 @@
 package main;
 
-import main.classes.MyAnimalFactory;
+import main.classes.abstractClasses.MyAnimalFactory;
 import main.classes.abstractClasses.Animal;
 import main.classes.enumClasses.AnimalType;
 import main.classes.enumClasses.Commands;
