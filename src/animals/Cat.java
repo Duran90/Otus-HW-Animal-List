@@ -1,6 +1,4 @@
-package main.classes.objectClasses;
-
-import main.classes.abstractClasses.Animal;
+package animals;
 
 public class Cat extends Animal {
     public Cat(String name, int age, int weight, String color) {

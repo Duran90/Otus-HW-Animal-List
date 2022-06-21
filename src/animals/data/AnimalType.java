@@ -1,4 +1,4 @@
-package main.classes.enumClasses;
+package animals.data;
 
 public enum AnimalType {
     CAT,

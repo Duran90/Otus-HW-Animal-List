@@ -1,4 +1,4 @@
-package main.interfaces;
+package animals;
 
 public interface Flying {
     void fly();

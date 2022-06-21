@@ -1,10 +1,10 @@
-package main.classes.abstractClasses;
+package animals.factory;
 
-import main.classes.abstractClasses.Animal;
-import main.classes.enumClasses.AnimalType;
-import main.classes.objectClasses.Cat;
-import main.classes.objectClasses.Dog;
-import main.classes.objectClasses.Duck;
+import animals.Animal;
+import animals.data.AnimalType;
+import animals.Cat;
+import animals.Dog;
+import animals.Duck;
 
 public class MyAnimalFactory {
 

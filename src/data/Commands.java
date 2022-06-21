@@ -1,4 +1,4 @@
-package main.classes.enumClasses;
+package data;
 
 public enum Commands {
     ADD,

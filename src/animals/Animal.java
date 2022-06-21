@@ -1,9 +1,9 @@
-package main.classes.abstractClasses;
+package animals;
 
 public abstract class Animal {
-       String name;
-       int age;
-       float weight;
+       private final String name;
+       private final int age;
+       private final float weight;
        private final String color;
 
     //Конструктор
@@ -31,20 +31,6 @@ public abstract class Animal {
         return color;
     }
 
-    //Сеттеры
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setWeight(float weight) {
-        this.weight = weight;
-    }
-
-
 
     // Методы
     public void say(){
@@ -64,7 +50,7 @@ public abstract class Animal {
         String hello;
         String path1 = "Привет! меня зовут " + name + ", мне " + age + " ";
         String path2 = ", я вешу - " + weight + " кг, мой цвет - " + color;
-        if (age == 1 ) {
+        if (age % 10 == 1 && age != 11) {
             hello = (path1 + year[0] + path2);
         } else if (age > 1 & age < 5) {
             hello = (path1 + year[1] + path2);
