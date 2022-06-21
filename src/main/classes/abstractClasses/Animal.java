@@ -62,13 +62,14 @@ public abstract class Animal {
     public String toString() {
         String[] year = {"год", "года", "лет"};
         String hello;
-
+        String path1 = "Привет! меня зовут " + name + ", мне " + age + " ";
+        String path2 = ", я вешу - " + weight + " кг, мой цвет - " + color;
         if (age == 1 ) {
-            hello = ("Привет! меня зовут " + name + ", мне " + age + " " + year[0] + ", я вешу - " + weight + " кг, мой цвет - " + color);
+            hello = (path1 + year[0] + path2);
         } else if (age > 1 & age < 5) {
-            hello = ("Привет! меня зовут " + name + ", мне " + age + " " + year[1] + ", я вешу - " + weight + " кг, мой цвет - " + color);
+            hello = (path1 + year[1] + path2);
         } else {
-            hello = ("Привет! меня зовут " + name + ", мне " + age + " " + year[2] + ", я вешу - " + weight + " кг, мой цвет - " + color);
+            hello = (path1 + year[2] + path2);
         }
         return hello;
     }
