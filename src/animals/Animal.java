@@ -50,9 +50,10 @@ public abstract class Animal {
         String hello;
         String path1 = "Привет! меня зовут " + name + ", мне " + age + " ";
         String path2 = ", я вешу - " + weight + " кг, мой цвет - " + color;
-        if (age % 10 == 1 && age != 11) {
+        int remAge = age % 10;
+        if (remAge == 1 && age != 11) {
             hello = (path1 + year[0] + path2);
-        } else if (age > 1 & age < 5) {
+        } else if (remAge > 1 && remAge < 5 ) {
             hello = (path1 + year[1] + path2);
         } else {
             hello = (path1 + year[2] + path2);
